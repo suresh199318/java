@@ -2,7 +2,7 @@
 
 __TL;DR__: This document shows you how to generate java class models from your CRD YAML manifests.
 Alternatively, without this automatic code-generation process, you can always manually write your 
-models for CRDs by implementing [KubernetesObject](https://github.com/kubernetes-client/java/blob/master/kubernetes/src/main/java/io/kubernetes/client/common/KubernetesObject.java) 
+models for CRDs by implementing [KubernetesObject](https://github.com/kubernetes-client/java/blob/master/kubernetes/src/main/java/io/kubernetes/client/common/KubernetesObject.java) hai
 and [KubernetesListObject](https://github.com/kubernetes-client/java/blob/master/kubernetes/src/main/java/io/kubernetes/client/common/KubernetesListObject.java) interfaces.
 
 ## Remote Generate via Github Action
